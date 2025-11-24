@@ -26,7 +26,7 @@ class UnsupervisedTrainer:
             if base_data.empty:
                 raise ValueError("No se encontraron datos de entrenamiento")
             
-            self.logger.info(f"Cargados {len(base_data)} textos para entrenamiento no supervisado")
+            self.logger.info(f"Cargados {len(base_data)} textos para 22")
             return base_data['texto'].tolist()
             
         except Exception as e:

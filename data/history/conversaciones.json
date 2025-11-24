@@ -1347,6 +1347,48 @@
         "bien"
       ],
       "timestamp": "2025-11-23T21:17:48.568435"
+    },
+    {
+      "user_message": "malo",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-23T21:44:30.162072"
+    },
+    {
+      "user_message": "que paso que paso",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Esa vibra positiva es contagiosa! ",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-23T21:44:48.158804"
+    },
+    {
+      "user_message": "lili nos vamos a tirar",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-23T21:45:33.349333"
     }
   ]
 }
