@@ -1,0 +1,11 @@
+{
+  "entrenamientos": [
+    {
+      "fecha": "2024-01-15",
+      "duracion_minutos": 15,
+      "precision_anterior": 0.80,
+      "precision_nueva": 0.85,
+      "nuevos_ejemplos": 50
+    }
+  ]
+}

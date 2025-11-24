@@ -1,0 +1,28 @@
+{
+  "positivo": [
+    "¡Me alegra mucho escuchar tu entusiasmo!",
+    "¡Qué energía tan positiva! Sigue así ", 
+    "Me encanta tu actitud positiva ",
+    "¡Esa vibra positiva es contagiosa! ",
+    "Fantástico mantener una actitud tan positiva"
+  ],
+  "negativo": [
+    "Lamento que estés pasando por esto ",
+    "Es válido sentirse así. Estoy aquí para escucharte ",
+    "Los momentos difíciles pasan. Cuenta conmigo ",
+    "Entiendo que no sea fácil. Tomemos un respiro ",
+    "No estás solo/a en esto. Juntos podemos "
+  ],
+  "neutral": [
+    "Gracias por compartir. ¿Quieres contarme más? ",
+    "Entiendo. ¿Hay algo específico en lo que pueda ayudarte? ",
+    "Gracias por tu mensaje. ¿Cómo te sientes al respecto? ",
+    "Interesante. ¿Quieres profundizar en ese tema? ",
+    "Comprendo. ¿Hay algo más que quieras comentar? "
+  ],
+  "error": [
+    "Lo siento, no pude procesar tu mensaje correctamente ",
+    "Hubo un error entendiendo tu mensaje. ¿Puedes reformularlo? ",
+    "No estoy seguro de entender. ¿Podrías explicarlo de otra manera?"
+  ]
+}

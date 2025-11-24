@@ -1,0 +1,10 @@
+{
+  "errores": [
+    {
+      "fecha": "2024-01-15 10:30:00",
+      "tipo": "prediccion",
+      "mensaje": "Error al predecir emoción: texto vacío",
+      "severidad": "bajo"
+    }
+  ]
+}

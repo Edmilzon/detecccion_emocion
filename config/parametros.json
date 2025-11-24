@@ -1,0 +1,19 @@
+{
+  "modelo": {
+    "tipo": "KMeans",
+    "n_clusters": 3,
+    "random_state": 42,
+    "algoritmo": "no_supervisado"
+  },
+  "preprocesamiento": {
+    "eliminar_stopwords": true,
+    "usar_lemantizacion": false,
+    "idioma": "es",
+    "max_features": 1000,
+    "ngram_range": [1, 2]
+  },
+  "evaluacion": {
+    "metrica_principal": "silhouette_score",
+    "umbral_confianza": 0.3
+  }
+}

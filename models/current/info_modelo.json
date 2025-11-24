@@ -1,0 +1,39 @@
+{
+  "model_type": "KMeans_Unsupervised",
+  "n_clusters": 3,
+  "cluster_emotions": {
+    "0": "positivo",
+    "1": "positivo",
+    "2": "positivo"
+  },
+  "evaluation": {
+    "silhouette_score": 0.2772,
+    "inertia": 56.14,
+    "n_clusters": 3,
+    "n_samples": 103,
+    "n_features": 42
+  },
+  "features_used": [
+    "aceptable",
+    "agradable",
+    "anoche",
+    "así",
+    "bien",
+    "bonito",
+    "buena",
+    "clara",
+    "comida",
+    "día",
+    "emoción",
+    "energía",
+    "esperaba",
+    "genial",
+    "hacer",
+    "hoy",
+    "informe",
+    "lleno",
+    "lugar",
+    "mal"
+  ],
+  "version": "1.0"
+}
