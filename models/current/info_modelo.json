@@ -7,33 +7,33 @@
     "2": "positivo"
   },
   "evaluation": {
-    "silhouette_score": 0.0636,
-    "inertia": 214.13,
+    "silhouette_score": 0.0183,
+    "inertia": 681.06,
     "n_clusters": 3,
-    "n_samples": 262,
-    "n_features": 187
+    "n_samples": 724,
+    "n_features": 588
   },
   "features_used": [
+    "abrazo",
+    "abrumado",
+    "abrumado tantas",
     "aceptable",
+    "actitud",
+    "actuado",
     "afecta",
     "afortunado",
     "agotado",
     "agradable",
     "agradecido",
+    "agradecido cada",
+    "ahora",
+    "aire",
+    "aire fresco",
+    "aislado",
+    "alegre",
     "alegría",
     "alegría reencontrarme",
-    "alguien",
-    "alivio",
-    "amado",
-    "ambiente",
-    "amigos",
-    "anoche",
-    "ansioso",
-    "apoyo",
-    "asco",
-    "así",
-    "aunque",
-    "bien"
+    "alegría sentirme"
   ],
   "version": "1.0"
 }

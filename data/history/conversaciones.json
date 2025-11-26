@@ -19,118 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "hol",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:30:39.498644"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "negativo",
-      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:30:44.123146"
-    },
-    {
-      "user_message": "hace calor",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:30:50.915655"
-    },
-    {
-      "user_message": "aburrido",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:30:56.642891"
-    },
-    {
-      "user_message": "buen dia",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:01.195921"
-    },
-    {
-      "user_message": "falla",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:11.371152"
-    },
-    {
-      "user_message": "bueno",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:14.266546"
-    },
-    {
-      "user_message": "genial",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:16.778569"
-    },
-    {
       "user_message": "feliz",
       "detected_emotion": "negativo",
       "bot_response": "Entiendo que no sea fácil. Tomemos un respiro ",
@@ -1417,6 +1305,118 @@
         "hoy"
       ],
       "timestamp": "2025-11-26T11:06:39.430199"
+    },
+    {
+      "user_message": "hola",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:26:11.080906"
+    },
+    {
+      "user_message": "err",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Qué energía tan positiva! Sigue así ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:41:26.350239"
+    },
+    {
+      "user_message": "q mal dia",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:42:05.027480"
+    },
+    {
+      "user_message": "dr",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Qué energía tan positiva! Sigue así ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T11:43:13.873912"
+    },
+    {
+      "user_message": "Estoy mal",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Esa vibra positiva es contagiosa! ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T11:43:57.966373"
+    },
+    {
+      "user_message": "go",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Qué energía tan positiva! Sigue así ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T11:46:38.201671"
+    },
+    {
+      "user_message": "hola",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Esa vibra positiva es contagiosa! ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T11:52:33.878120"
+    },
+    {
+      "user_message": "hoka",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Esa vibra positiva es contagiosa! ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T11:56:27.284452"
     }
   ]
 }
