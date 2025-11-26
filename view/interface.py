@@ -11,10 +11,6 @@ from src.chat.core import EmotionChatbot
 from src.ml.unsupervised_trainer import UnsupervisedTrainer
 from src.utils.logger import setup_logger
 
-
-# =========================================================
-# Handler para mostrar logs del chatbot dentro del panel UI
-# =========================================================
 class TkinterHandler(logging.Handler):
     def __init__(self, widget):
         super().__init__()
@@ -23,43 +19,31 @@ class TkinterHandler(logging.Handler):
     def emit(self, record):
         msg = self.format(record)
         self.widget.config(state="normal")
-        self.widget.insert("end", msg + "\n")
+        self.widget.insert("end", "• " + msg + "\n")   # ← MARCA AL INICIO
         self.widget.config(state="disabled")
         self.widget.see("end")
 
-
-# =========================================================
-# INTERFAZ CHAT
-# =========================================================
 class ChatUI:
 
     def __init__(self, root):
 
-        # ------------------------ LOGGER ------------------------
         self.logger = setup_logger()
 
         # Chatbot
         self.chatbot = EmotionChatbot()
 
-        # CONECTAR EL LOGGER DEL CHATBOT A LA INTERFAZ
-        tk_handler = TkinterHandler(None)  # widget se asignará luego
+        tk_handler = TkinterHandler(None)
         formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
         tk_handler.setFormatter(formatter)
 
-        # Reset handlers
         self.logger.handlers = []
         self.logger.addHandler(tk_handler)
         self.chatbot.logger = self.logger
 
-        # ----------------- DISEÑO (UI) -----------------
-
         root.configure(bg="#FBE9E7")
 
-        # Usamos grid para manejar el layout y permitir redimensionar el panel de control
-        root.grid_columnconfigure(0, weight=1)  # columna de mensajes a la izquierda (expandible)
-        root.grid_columnconfigure(1, weight=0, minsize=240)  # columna de panel de control a la derecha (redimensionable)
-
-        # ---- Panel derecho: CHAT (ahora en columna 0, a la izquierda) ----
+        root.grid_columnconfigure(0, weight=1)
+        root.grid_columnconfigure(1, weight=0, minsize=240)
         right = tk.Frame(root, bg="#FFF3E0")
         right.grid(row=0, column=0, sticky="nsew")
 
@@ -75,7 +59,6 @@ class ChatUI:
         send_btn = ttk.Button(bottom, text="Enviar", command=self.send_message)
         send_btn.pack(side="right", padx=5, pady=5)
 
-        # ---- Panel izquierdo: LOG (ahora en columna 1, a la derecha) ----
         left = tk.Frame(root, bg="#FFCCBC")
         left.grid(row=0, column=1, sticky="ns")
 
@@ -89,7 +72,6 @@ class ChatUI:
                                state="disabled", bg="#FFECE6")
         self.log_box.pack(fill="both", expand=True, padx=5, pady=5)
 
-        # Ahora asignamos el widget al handler
         tk_handler.widget = self.log_box
 
         train_btn = ttk.Button(left, text="Entrenar modelo", command=self.train_model)
@@ -97,13 +79,9 @@ class ChatUI:
 
         self.log("Chatbot listo.")
 
-    # =========================================================
-    # FUNCIONES DE LA INTERFAZ
-    # =========================================================
-
     def log(self, msg):
         self.log_box.config(state="normal")
-        self.log_box.insert("end", msg + "\n")
+        self.log_box.insert("end", f"• {msg}\n")  # ← MARCA AL INICIO DE CADA LOG
         self.log_box.config(state="disabled")
         self.log_box.see("end")
 
@@ -122,9 +100,7 @@ class ChatUI:
         )
         msg.pack(anchor="e" if sender == "user" else "w")
 
-    # =========================================================
     # CHAT
-    # =========================================================
 
     def send_message(self):
         text = self.entry.get().strip()
@@ -142,9 +118,7 @@ class ChatUI:
         except Exception as e:
             self.log(f"Error procesando mensaje: {e}")
 
-    # =========================================================
     # ENTRENAMIENTO
-    # =========================================================
 
     def train_model(self):
         self.log("Iniciando entrenamiento...")
@@ -162,10 +136,6 @@ class ChatUI:
         except Exception as e:
             self.log(f"Error en el entrenamiento: {e}")
 
-
-# =========================================================
-# EJECUCIÓN
-# =========================================================
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Chatsito Emocional")

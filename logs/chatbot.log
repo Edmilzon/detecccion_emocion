@@ -1249,3 +1249,9 @@
 2025-11-26 11:56:20,743 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
 2025-11-26 11:56:20,743 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
 2025-11-26 11:56:20,744 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)
+2025-11-26 12:03:39,794 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
+2025-11-26 12:03:39,797 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
+2025-11-26 12:03:39,797 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)
+2025-11-26 12:12:41,905 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
+2025-11-26 12:12:41,907 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
+2025-11-26 12:12:41,907 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)

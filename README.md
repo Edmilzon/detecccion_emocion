@@ -55,9 +55,10 @@ pip install -r requirements.txt
 py archivo.py
 ```
 
-
-
-
+**Iniciar proyecto con interfaz**
+```bash
+py .\view\interface.py 
+```
 
 
 

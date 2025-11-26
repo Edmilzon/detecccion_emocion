@@ -19,34 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "feliz",
-      "detected_emotion": "negativo",
-      "bot_response": "Entiendo que no sea fácil. Tomemos un respiro ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:25.538491"
-    },
-    {
-      "user_message": "normal",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:31:36.314416"
-    },
-    {
       "user_message": "clear",
       "detected_emotion": "negativo",
       "bot_response": "Lamento que estés pasando por esto ",
@@ -1417,6 +1389,34 @@
         "alivio"
       ],
       "timestamp": "2025-11-26T11:56:27.284452"
+    },
+    {
+      "user_message": "hola",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T12:03:50.421290"
+    },
+    {
+      "user_message": "hola",
+      "detected_emotion": "positivo",
+      "bot_response": "Fantástico mantener una actitud tan positiva",
+      "cluster_id": 0,
+      "cluster_words": [
+        "preocupado",
+        "rabia",
+        "tan",
+        "emoción",
+        "alivio"
+      ],
+      "timestamp": "2025-11-26T12:12:48.360161"
     }
   ]
 }
