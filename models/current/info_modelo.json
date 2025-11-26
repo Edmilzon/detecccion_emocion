@@ -7,33 +7,33 @@
     "2": "positivo"
   },
   "evaluation": {
-    "silhouette_score": 0.2772,
-    "inertia": 56.14,
+    "silhouette_score": 0.0636,
+    "inertia": 214.13,
     "n_clusters": 3,
-    "n_samples": 103,
-    "n_features": 42
+    "n_samples": 262,
+    "n_features": 187
   },
   "features_used": [
     "aceptable",
+    "afecta",
+    "afortunado",
+    "agotado",
     "agradable",
+    "agradecido",
+    "alegría",
+    "alegría reencontrarme",
+    "alguien",
+    "alivio",
+    "amado",
+    "ambiente",
+    "amigos",
     "anoche",
+    "ansioso",
+    "apoyo",
+    "asco",
     "así",
-    "bien",
-    "bonito",
-    "buena",
-    "clara",
-    "comida",
-    "día",
-    "emoción",
-    "energía",
-    "esperaba",
-    "genial",
-    "hacer",
-    "hoy",
-    "informe",
-    "lleno",
-    "lugar",
-    "mal"
+    "aunque",
+    "bien"
   ],
   "version": "1.0"
 }

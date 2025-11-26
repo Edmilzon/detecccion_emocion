@@ -19,160 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "hola",
-      "detected_emotion": "negativo",
-      "bot_response": "Gracias por tu mensaje. ¿En qué más puedo ayudarte?",
-      "cluster_id": 0,
-      "cluster_words": [
-        "triste",
-        "alegre",
-        "desanimado",
-        "normal",
-        "día"
-      ],
-      "timestamp": "2025-11-23T16:24:12.821778"
-    },
-    {
-      "user_message": "estoy feliz",
-      "detected_emotion": "negativo",
-      "bot_response": "Gracias por tu mensaje. ¿En qué más puedo ayudarte?",
-      "cluster_id": 0,
-      "cluster_words": [
-        "triste",
-        "alegre",
-        "desanimado",
-        "normal",
-        "día"
-      ],
-      "timestamp": "2025-11-23T16:24:30.194770"
-    },
-    {
-      "user_message": "que pasa por que dices que estoy triste",
-      "detected_emotion": "negativo",
-      "bot_response": "Gracias por tu mensaje. ¿En qué más puedo ayudarte?",
-      "cluster_id": 0,
-      "cluster_words": [
-        "triste",
-        "alegre",
-        "desanimado",
-        "normal",
-        "día"
-      ],
-      "timestamp": "2025-11-23T16:24:43.410433"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "positivo",
-      "bot_response": "Fantástico mantener una actitud tan positiva ☀️",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T16:35:36.555136"
-    },
-    {
-      "user_message": "ahhh hoy iso mucho calor",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Esa vibra positiva es contagiosa! 🌈",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T16:37:07.570508"
-    },
-    {
-      "user_message": "la verdad estoy aburrido",
-      "detected_emotion": "positivo",
-      "bot_response": "Fantástico mantener una actitud tan positiva ☀️",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T16:37:15.001533"
-    },
-    {
-      "user_message": "nose que hacer",
-      "detected_emotion": "positivo",
-      "bot_response": "Fantástico mantener una actitud tan positiva ☀️",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T16:37:22.649851"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Esa vibra positiva es contagiosa! ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:18:13.665970"
-    },
-    {
-      "user_message": "hoy fue un dia soleado",
-      "detected_emotion": "positivo",
-      "bot_response": "Fantástico mantener una actitud tan positiva",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:18:29.188280"
-    },
-    {
-      "user_message": "estoy aburrido",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:18:42.060157"
-    },
-    {
-      "user_message": "nada me gusta",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T17:18:50.835810"
-    },
-    {
       "user_message": "hol",
       "detected_emotion": "negativo",
       "bot_response": "Lamento que estés pasando por esto ",
@@ -1389,6 +1235,188 @@
         "bien"
       ],
       "timestamp": "2025-11-23T21:45:33.349333"
+    },
+    {
+      "user_message": "me fue mal en mi defensa de TIS",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T10:37:52.475054"
+    },
+    {
+      "user_message": "no estas mal me fue mal",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T10:38:07.087588"
+    },
+    {
+      "user_message": "noooo",
+      "detected_emotion": "positivo",
+      "bot_response": "Fantástico mantener una actitud tan positiva",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T10:38:11.138784"
+    },
+    {
+      "user_message": "bueno",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T10:38:21.003108"
+    },
+    {
+      "user_message": "si tu lo dices",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Esa vibra positiva es contagiosa! ",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T10:38:26.474095"
+    },
+    {
+      "user_message": "holi",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T11:05:50.619544"
+    },
+    {
+      "user_message": "sali",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 2,
+      "cluster_words": [
+        "siento",
+        "día",
+        "situación",
+        "hoy",
+        "bien"
+      ],
+      "timestamp": "2025-11-26T11:05:56.256569"
+    },
+    {
+      "user_message": "holiwis",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:06:16.613897"
+    },
+    {
+      "user_message": "me siento re mal",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 1,
+      "cluster_words": [
+        "siento",
+        "hoy",
+        "siento orgulloso",
+        "decisiones",
+        "orgulloso"
+      ],
+      "timestamp": "2025-11-26T11:06:24.260482"
+    },
+    {
+      "user_message": "como asi",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:06:28.599308"
+    },
+    {
+      "user_message": "que",
+      "detected_emotion": "positivo",
+      "bot_response": "Me encanta tu actitud positiva ",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:06:32.093876"
+    },
+    {
+      "user_message": "khe",
+      "detected_emotion": "positivo",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:06:34.672962"
+    },
+    {
+      "user_message": "que actitud",
+      "detected_emotion": "positivo",
+      "bot_response": "Fantástico mantener una actitud tan positiva",
+      "cluster_id": 0,
+      "cluster_words": [
+        "tan",
+        "ver",
+        "bien",
+        "día",
+        "hoy"
+      ],
+      "timestamp": "2025-11-26T11:06:39.430199"
     }
   ]
 }

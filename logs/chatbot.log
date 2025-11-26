@@ -1108,3 +1108,126 @@
 2025-11-23 21:45:33,371 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
 2025-11-23 21:45:33,372 - EmotionChatbot - INFO - Conversación guardada en historial
 2025-11-23 21:45:33,372 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 10:36:54,000 - EmotionChatbot - INFO - INICIANDO ENTRENAMIENTO NO SUPERVISADO
+2025-11-26 10:36:54,001 - EmotionChatbot - INFO - Algoritmo: K-means con TF-IDF
+2025-11-26 10:36:54,001 - EmotionChatbot - INFO - Clusters: 3 (Positivo, Negativo, Neutral)
+2025-11-26 10:36:55,315 - EmotionChatbot - INFO - Iniciando entrenamiento NO SUPERVISADO con K-means
+2025-11-26 10:36:55,318 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 103 registros
+2025-11-26 10:36:55,318 - EmotionChatbot - INFO - Cargados 103 textos para 22
+2025-11-26 10:36:55,318 - EmotionChatbot - INFO - Preprocesando textos...
+2025-11-26 10:36:55,319 - EmotionChatbot - INFO - Vectorizando con TF-IDF...
+2025-11-26 10:36:55,322 - EmotionChatbot - INFO - Entrenando K-means con 3 clusters...
+2025-11-26 10:36:57,032 - EmotionChatbot - INFO - Interpretando clusters...
+2025-11-26 10:36:57,033 - EmotionChatbot - INFO - JSON cargado: config/palabras_clave.json
+2025-11-26 10:36:57,034 - EmotionChatbot - INFO - Cluster 0: positivo - Palabras: ['siento', 'hoy', 'bien', 'tiempo', 'tan']
+2025-11-26 10:36:57,034 - EmotionChatbot - INFO - Cluster 1: positivo - Palabras: ['emoción', 'vida', 'tiempo', 'tarde', 'tan']
+2025-11-26 10:36:57,034 - EmotionChatbot - INFO - Cluster 2: positivo - Palabras: ['siento', 'día', 'situación', 'hoy', 'bien']
+2025-11-26 10:36:57,036 - EmotionChatbot - INFO - Evaluación - Silhouette: 0.2772, Inercia: 56.14
+2025-11-26 10:36:57,039 - EmotionChatbot - INFO - JSON guardado: models/current/info_modelo.json
+2025-11-26 10:36:57,040 - EmotionChatbot - INFO - JSON guardado: data/history/metricas_entrenamiento.json
+2025-11-26 10:36:57,040 - EmotionChatbot - INFO - Modelo K-means guardado exitosamente
+2025-11-26 10:36:57,040 - EmotionChatbot - INFO - ENTRENAMIENTO COMPLETADO
+2025-11-26 10:36:57,041 - EmotionChatbot - INFO - Resultados:
+2025-11-26 10:36:57,041 - EmotionChatbot - INFO -    - Silhouette Score: 0.2772
+2025-11-26 10:36:57,041 - EmotionChatbot - INFO -    - Inercia: 56.14
+2025-11-26 10:36:57,041 - EmotionChatbot - INFO -    - Muestras: 103
+2025-11-26 10:37:37,851 - EmotionChatbot - INFO - Iniciando Chatbot de Emociones...
+2025-11-26 10:37:37,920 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
+2025-11-26 10:37:37,920 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
+2025-11-26 10:37:37,921 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)
+2025-11-26 10:37:52,474 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 10:37:52,476 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 10:37:52,479 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 10:37:52,479 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 10:37:52,479 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 10:38:07,087 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 10:38:07,097 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 10:38:07,101 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 10:38:07,102 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 10:38:07,102 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 10:38:11,138 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 10:38:11,152 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 10:38:11,159 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 10:38:11,159 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 10:38:11,160 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 10:38:21,002 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 10:38:21,019 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 10:38:21,025 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 10:38:21,026 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 10:38:21,026 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 10:38:26,473 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 10:38:26,486 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 10:38:26,492 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 10:38:26,492 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 10:38:26,493 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 11:05:29,797 - EmotionChatbot - INFO - Iniciando Chatbot de Emociones...
+2025-11-26 11:05:29,868 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
+2025-11-26 11:05:29,869 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
+2025-11-26 11:05:29,869 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)
+2025-11-26 11:05:50,619 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:05:50,620 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:05:50,623 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:05:50,623 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:05:50,623 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 11:05:56,255 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:05:56,273 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:05:56,283 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:05:56,284 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:05:56,284 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 2)
+2025-11-26 11:06:04,517 - EmotionChatbot - INFO - INICIANDO ENTRENAMIENTO NO SUPERVISADO
+2025-11-26 11:06:04,518 - EmotionChatbot - INFO - Algoritmo: K-means con TF-IDF
+2025-11-26 11:06:04,518 - EmotionChatbot - INFO - Clusters: 3 (Positivo, Negativo, Neutral)
+2025-11-26 11:06:04,520 - EmotionChatbot - INFO - Iniciando entrenamiento NO SUPERVISADO con K-means
+2025-11-26 11:06:04,522 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 262 registros
+2025-11-26 11:06:04,522 - EmotionChatbot - INFO - Cargados 262 textos para 22
+2025-11-26 11:06:04,525 - EmotionChatbot - INFO - Preprocesando textos...
+2025-11-26 11:06:04,527 - EmotionChatbot - INFO - Vectorizando con TF-IDF...
+2025-11-26 11:06:04,534 - EmotionChatbot - INFO - Entrenando K-means con 3 clusters...
+2025-11-26 11:06:06,554 - EmotionChatbot - INFO - Interpretando clusters...
+2025-11-26 11:06:06,555 - EmotionChatbot - INFO - JSON cargado: config/palabras_clave.json
+2025-11-26 11:06:06,557 - EmotionChatbot - INFO - Cluster 0: positivo - Palabras: ['tan', 'ver', 'bien', 'día', 'hoy']
+2025-11-26 11:06:06,557 - EmotionChatbot - INFO - Cluster 1: positivo - Palabras: ['siento', 'hoy', 'siento orgulloso', 'decisiones', 'orgulloso']
+2025-11-26 11:06:06,557 - EmotionChatbot - INFO - Cluster 2: positivo - Palabras: ['emoción', 'emoción ver', 'ver', 'recordar', 'logro']
+2025-11-26 11:06:06,560 - EmotionChatbot - INFO - Evaluación - Silhouette: 0.0636, Inercia: 214.13
+2025-11-26 11:06:06,566 - EmotionChatbot - INFO - JSON guardado: models/current/info_modelo.json
+2025-11-26 11:06:06,567 - EmotionChatbot - INFO - JSON guardado: data/history/metricas_entrenamiento.json
+2025-11-26 11:06:06,567 - EmotionChatbot - INFO - Modelo K-means guardado exitosamente
+2025-11-26 11:06:06,567 - EmotionChatbot - INFO - ENTRENAMIENTO COMPLETADO
+2025-11-26 11:06:06,567 - EmotionChatbot - INFO - Resultados:
+2025-11-26 11:06:06,568 - EmotionChatbot - INFO -    - Silhouette Score: 0.0636
+2025-11-26 11:06:06,568 - EmotionChatbot - INFO -    - Inercia: 214.13
+2025-11-26 11:06:06,568 - EmotionChatbot - INFO -    - Muestras: 262
+2025-11-26 11:06:13,320 - EmotionChatbot - INFO - Iniciando Chatbot de Emociones...
+2025-11-26 11:06:13,388 - EmotionChatbot - INFO - Modelo K-means cargado exitosamente
+2025-11-26 11:06:13,389 - EmotionChatbot - INFO - JSON cargado: config/respuestas.json
+2025-11-26 11:06:13,389 - EmotionChatbot - INFO - Chatbot de Emociones inicializado (K-means No Supervisado)
+2025-11-26 11:06:16,613 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:16,627 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:16,631 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:16,631 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:16,631 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 0)
+2025-11-26 11:06:24,260 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:24,270 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:24,274 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:24,274 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:24,274 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 1)
+2025-11-26 11:06:28,598 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:28,610 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:28,613 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:28,613 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:28,613 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 0)
+2025-11-26 11:06:32,093 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:32,107 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:32,114 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:32,114 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:32,115 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 0)
+2025-11-26 11:06:34,672 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:34,686 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:34,690 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:34,691 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:34,691 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 0)
+2025-11-26 11:06:39,429 - EmotionChatbot - INFO - Respuesta generada para emoción: positivo
+2025-11-26 11:06:39,443 - EmotionChatbot - INFO - JSON cargado: data/history/conversaciones.json
+2025-11-26 11:06:39,447 - EmotionChatbot - INFO - JSON guardado: data/history/conversaciones.json
+2025-11-26 11:06:39,447 - EmotionChatbot - INFO - Conversación guardada en historial
+2025-11-26 11:06:39,448 - EmotionChatbot - INFO - Emoción detectada: positivo (Cluster: 0)
