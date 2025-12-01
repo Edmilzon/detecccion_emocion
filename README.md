@@ -8,9 +8,8 @@ Sistema de chatbot que detecta emociones en textos usando **K-means** y **TF-IDF
 
 ## 🚀 Características
 
-- **Aprendizaje No Supervisado** (K-means con 3 clusters)
+- **Aprendizaje No Supervisado** (K-means con 30 clusters)
 - **Procesamiento de Lenguaje Natural** (TF-IDF + limpieza de texto)
-- **Detección de 3 emociones**: Positivo, Negativo, Neutral
 - **Respuestas contextuales** según emoción detectada
 - **Interfaz de chat** en tiempo real
 - **Registro de conversaciones** en archivos JSON
@@ -50,14 +49,13 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-**Iniciar proyesto**
-```bash
-py archivo.py
-```
-
 **Iniciar proyecto con interfaz**
 ```bash
+#Opcion 1
 py .\view\interface.py 
+
+#Opcion 1
+py view/interface.py 
 ```
 
 
@@ -126,6 +124,8 @@ pip freeze > requirements.txt
 │   ├── errores.json
 │   ├── entrenamiento.json
 │   └── uso_chatbot.json
+├── view/
+│   ├──interface.py
 │
 ├── requirements.txt
 ├── train_model.py
