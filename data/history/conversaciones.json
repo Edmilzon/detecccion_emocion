@@ -19,90 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "clear",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 1,
-      "cluster_words": [
-        "día",
-        "emoción",
-        "agradable",
-        "paisaje",
-        "respecto"
-      ],
-      "timestamp": "2025-11-23T18:12:43.230080"
-    },
-    {
-      "user_message": "hola como estas",
-      "detected_emotion": "neutral",
-      "bot_response": "Gracias por compartir. ¿Quieres contarme más? ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:15:04.274325"
-    },
-    {
-      "user_message": "ando perfecto",
-      "detected_emotion": "neutral",
-      "bot_response": "Gracias por compartir. ¿Quieres contarme más? ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:15:13.675647"
-    },
-    {
-      "user_message": "bien",
-      "detected_emotion": "neutral",
-      "bot_response": "Comprendo. ¿Hay algo más que quieras comentar? ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:15:18.595110"
-    },
-    {
-      "user_message": "feliz",
-      "detected_emotion": "neutral",
-      "bot_response": "Gracias por tu mensaje. ¿Cómo te sientes al respecto? ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:15:20.675220"
-    },
-    {
-      "user_message": "fue un grandia",
-      "detected_emotion": "neutral",
-      "bot_response": "Interesante. ¿Quieres profundizar en ese tema? ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:15:24.963897"
-    },
-    {
       "user_message": "pesimo",
       "detected_emotion": "neutral",
       "bot_response": "Entiendo. ¿Hay algo específico en lo que pueda ayudarte? ",
@@ -1417,6 +1333,81 @@
         "alivio"
       ],
       "timestamp": "2025-11-26T12:12:48.360161"
+    },
+    {
+      "user_message": "me siento bien y feliz",
+      "detected_emotion": "emoción_4",
+      "bot_response": "¡Qué energía tan positiva! Sigue así",
+      "cluster_id": 4,
+      "cluster_words": [
+        "siento",
+        "después",
+        "vacío",
+        "siento vacío",
+        "hoy"
+      ],
+      "timestamp": "2025-11-30T23:37:53.275603"
+    },
+    {
+      "user_message": "ando triste debido a que me fue mal en los estudios",
+      "detected_emotion": "emoción_7",
+      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte",
+      "cluster_id": 7,
+      "cluster_words": [
+        "alivio",
+        "bien",
+        "ansioso",
+        "paz",
+        "miedo"
+      ],
+      "timestamp": "2025-11-30T23:38:13.568280"
+    },
+    {
+      "user_message": "me siento feliz fue un gran dia",
+      "detected_emotion": "tristeza",
+      "bot_response": "No estás solo/a en esto. Juntos podemos",
+      "cluster_id": 4,
+      "cluster_words": [
+        "feliz",
+        "siento",
+        "gran"
+      ],
+      "timestamp": "2025-11-30T23:42:45.133149"
+    },
+    {
+      "user_message": "me fue mal en los estudios estoy muy triste",
+      "detected_emotion": "alegría",
+      "bot_response": "Lamento que estés pasando por esto",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal",
+        "triste",
+        "estudios"
+      ],
+      "timestamp": "2025-11-30T23:43:31.421208"
+    },
+    {
+      "user_message": "estoy feliz fue un gran dia",
+      "detected_emotion": "alegría",
+      "bot_response": "Fantástico mantener una actitud tan positiva",
+      "cluster_id": 7,
+      "cluster_words": [
+        "feliz",
+        "gran"
+      ],
+      "timestamp": "2025-11-30T23:47:57.157103"
+    },
+    {
+      "user_message": "me fue mal en los estudios estoy muy triste",
+      "detected_emotion": "tristeza",
+      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal",
+        "triste",
+        "estudios"
+      ],
+      "timestamp": "2025-11-30T23:48:12.197652"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "silhouette_score": 0.0183,
-  "inertia": 681.06,
-  "n_clusters": 3,
+  "silhouette_score": 0.0706,
+  "inertia": 571.63,
+  "n_clusters": 30,
   "n_samples": 724,
   "n_features": 588
 }

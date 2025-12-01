@@ -79,11 +79,15 @@ class EmotionChatbot:
     
     def run_chat_interface(self):
         """Interfaz de línea de comandos para chatear"""
+        # Obtener número de clusters del modelo
+        num_clusters = len(self.predictor.cluster_emotions) if self.predictor.cluster_emotions else 30
+        
         print("\n" + "="*50)
         print("CHATBOT DE EMOCIONES - APRENDIZAJE NO SUPERVISADO")
         print("="*50)
         print("Sistema basado en K-means y TF-IDF")
-        print("Emociones: Positivo | Negativo | Neutral")
+        print(f"Emociones detectadas automáticamente: {num_clusters} clusters")
+        print("(emoción_0, emoción_1, emoción_2, ...)")
         print("Escribe 'salir' para terminar")
         print("="*50)
         

@@ -1,28 +1,22 @@
-{
-  "positivo": [
-    "alegría", "feliz", "contento", "genial", "maravilloso", "increíble", 
-    "alegre", "fantástico", "perfecto", "excelente", "bueno", "positiva", 
-    "entusiasmado", "satisfecho", "animado", "optimista", "inspirado", 
-    "agradecido", "paz", "tranquilidad", "emoción", "éxito", "logro", 
-    "afortunado", "divertido", "encantado", "espectacular", "inolvidable", 
-    "sorpresa agradable", "orgulloso", "conmovido", "tierno", "amor", 
-    "amado", "valorado", "energía", "invencible", "cumple", "útil", "bien"
-  ],
-  "negativo": [
-    "desanimado", "triste", "mal", "terrible", "horrible", "deprimido", 
-    "fatal", "enojado", "molesto", "furioso", "indignado", "cabreado", 
-    "desesperanzado", "frustración", "decepcionado", "tristeza", "aburre", 
-    "ruido", "rabia", "injusticia", "preocupa", "pena", "exhausto", 
-    "vacío", "sin motivación", "dolor", "miedo", "culpa", "lenta", 
-    "desesperadamente", "asco", "nostálgico", "ansioso", "harto", 
-    "inaceptable", "aburridísima", "solo", "fastidio", "pésimo", "traicionado", 
-    "dolido", "pereza", "incomprendido", "agotado", "odio", "error", "falla", 
-    "problema", "complicado", "difícil"
-  ],
-  "neutral": [
-    "normal", "regular", "aceptable", "estándar", "tranquilo", "indiferente", 
-    "neutral", "sin opinión", "informativo", "conciso", "sin incidentes", 
-    "adecuado", "irrelevante", "procedimiento estándar", "sin cambios", 
-    "usual", "común", "sin novedades", "equilibrado", "razonable"
-  ]
-}
+[
+  "alegría", "feliz", "contento", "genial", "maravilloso", "increíble",
+  "alegre", "fantástico", "perfecto", "excelente", "bueno", "positiva",
+  "entusiasmado", "satisfecho", "animado", "optimista", "inspirado",
+  "agradecido", "paz", "tranquilidad", "emoción", "éxito", "logro",
+  "afortunado", "divertido", "encantado", "espectacular", "inolvidable",
+  "sorpresa agradable", "orgulloso", "conmovido", "tierno", "amor",
+  "amado", "valorado", "energía", "invencible", "cumple", "útil", "bien",
+  "desanimado", "triste", "mal", "terrible", "horrible", "deprimido",
+  "fatal", "desesperanzado", "frustración", "decepcionado", "tristeza",
+  "aburre", "pena", "exhausto", "vacío", "sin motivación", "dolor",
+  "miedo", "culpa", "lenta", "desesperadamente", "nostálgico", "ansioso",
+  "harto", "aburridísima", "solo", "fastidio", "pésimo", "traicionado",
+  "dolido", "pereza", "incomprendido", "agotado", "odio", "error", "falla",
+  "problema", "complicado", "difícil",
+  "enojado", "molesto", "furioso", "indignado", "cabreado", "rabia",
+  "injusticia", "preocupa", "asco", "inaceptable",
+  "normal", "regular", "aceptable", "estándar", "tranquilo", "indiferente",
+  "neutral", "sin opinión", "informativo", "conciso", "sin incidentes",
+  "adecuado", "irrelevante", "procedimiento estándar", "sin cambios",
+  "usual", "común", "sin novedades", "equilibrado", "razonable"
+]

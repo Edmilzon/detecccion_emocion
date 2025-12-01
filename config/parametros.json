@@ -1,7 +1,7 @@
 {
   "modelo": {
     "tipo": "KMeans",
-    "n_clusters": 3,
+    "n_clusters": 30,
     "random_state": 42,
     "algoritmo": "no_supervisado"
   },
