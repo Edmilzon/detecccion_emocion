@@ -2,11 +2,11 @@
 
 Este proyecto es un chatbot capaz de detectar el estado emocional del usuario a través de sus mensajes de texto.
 
-# 🤖 Chatbot de Emociones - Aprendizaje No Supervisado
+# Chatbot de Emociones - Aprendizaje No Supervisado
 
 Sistema de chatbot que detecta emociones en textos usando **K-means** y **TF-IDF** (Aprendizaje No Supervisado).
 
-## 🚀 Características
+## Características
 
 - **Aprendizaje No Supervisado** (K-means con 30 clusters)
 - **Procesamiento de Lenguaje Natural** (TF-IDF + limpieza de texto)
@@ -52,10 +52,9 @@ pip install -r requirements.txt
 **Iniciar proyecto con interfaz**
 ```bash
 #Opcion 1
-py .\view\interface.py 
-
+python -m view.main_app
 #Opcion 1
-py view/interface.py 
+py view/main_app
 ```
 
 

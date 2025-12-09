@@ -13,3 +13,6 @@ six==1.17.0
 threadpoolctl==3.6.0
 tqdm==4.67.1
 tzdata==2025.2
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+setuptools

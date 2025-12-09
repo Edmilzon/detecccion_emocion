@@ -19,132 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "no me gusta",
-      "detected_emotion": "positivo",
-      "bot_response": "Me encanta tu actitud positiva ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:32:24.919136"
-    },
-    {
-      "user_message": "esta pesimo",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Esa vibra positiva es contagiosa! ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:32:29.359300"
-    },
-    {
-      "user_message": "esto esta mal por mucho q diablos pasa",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Qué energía tan positiva! Sigue así ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:32:37.847027"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:29.073841"
-    },
-    {
-      "user_message": "estoy regular",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Qué energía tan positiva! Sigue así ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:36.976357"
-    },
-    {
-      "user_message": "nada bueno",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Esa vibra positiva es contagiosa! ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:41.448875"
-    },
-    {
-      "user_message": "horrible",
-      "detected_emotion": "positivo",
-      "bot_response": "Fantástico mantener una actitud tan positiva",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:44.944421"
-    },
-    {
-      "user_message": "pesimo",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Qué energía tan positiva! Sigue así ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:47.776579"
-    },
-    {
-      "user_message": "esta muy mal",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Esa vibra positiva es contagiosa! ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:50.697356"
-    },
-    {
       "user_message": "que es lo que te pasa",
       "detected_emotion": "positivo",
       "bot_response": "¡Qué energía tan positiva! Sigue así ",
@@ -1373,6 +1247,110 @@
         "salir"
       ],
       "timestamp": "2025-12-01T00:36:01.479393"
+    },
+    {
+      "user_message": "fue un buen dia algo soleado pero feliz",
+      "detected_emotion": "alegría",
+      "bot_response": "Gracias por tu mensaje. ¿Cómo te sientes al respecto?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "buen",
+        "feliz",
+        "soleado"
+      ],
+      "timestamp": "2025-12-08T22:00:18.620897"
+    },
+    {
+      "user_message": "bien alegre",
+      "detected_emotion": "alegría",
+      "bot_response": "Interesante. ¿Quieres profundizar en ese tema?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "alegre",
+        "bien"
+      ],
+      "timestamp": "2025-12-08T22:00:27.469966"
+    },
+    {
+      "user_message": "te cuento me fue mal en mi examen reprobe y creo q me ira mal todo",
+      "detected_emotion": "tristeza",
+      "bot_response": "Lamento que estés pasando por esto",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal",
+        "creo",
+        "esperanzado creo",
+        "cuento",
+        "examen"
+      ],
+      "timestamp": "2025-12-08T22:00:44.558313"
+    },
+    {
+      "user_message": "mal bien pero me fue más o menos bien",
+      "detected_emotion": "tristeza",
+      "bot_response": "No estás solo/a en esto. Juntos podemos",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "mal",
+        "menos"
+      ],
+      "timestamp": "2025-12-08T22:32:25.685896"
+    },
+    {
+      "user_message": "y me fue bien en mi examen",
+      "detected_emotion": "alegría",
+      "bot_response": "Entiendo. ¿Hay algo específico en lo que pueda ayudarte?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "extraño ambiente",
+        "examen"
+      ],
+      "timestamp": "2025-12-08T22:34:04.186782"
+    },
+    {
+      "user_message": "Hola hola este cómo estás chachito",
+      "detected_emotion": "alegría",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 7,
+      "cluster_words": [
+        "cómo",
+        "hola",
+        "chachito"
+      ],
+      "timestamp": "2025-12-08T22:49:46.707620"
+    },
+    {
+      "user_message": "estoy triste",
+      "detected_emotion": "tristeza",
+      "bot_response": "Puedo ver que esto te molesta. ¿Quieres hablar de ello?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "triste"
+      ],
+      "timestamp": "2025-12-08T22:50:04.317658"
+    },
+    {
+      "user_message": "me fue mal",
+      "detected_emotion": "tristeza",
+      "bot_response": "Reconozco tu molestia. Vamos a ver cómo podemos manejar esto",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal"
+      ],
+      "timestamp": "2025-12-08T22:50:13.274088"
+    },
+    {
+      "user_message": "No tengo más opciones que suicidar",
+      "detected_emotion": "confusión",
+      "bot_response": "Los sentimientos de enojo son normales. ¿Qué te gustaría hacer al respecto?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "opciones",
+        "suicidar"
+      ],
+      "timestamp": "2025-12-08T22:50:23.021954"
     }
   ]
 }
