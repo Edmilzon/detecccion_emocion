@@ -102,7 +102,7 @@ class ChatUI:
             confidence = output.get("confidence", 0.0)
             top_words = output.get("top_words", [])
             
-            self.chat_area.add_message(f"Bot [{emotion.upper()}]: {response}", sender="bot")
+            self.chat_area.add_message(f"Bot: {response}", sender="bot")
             
             self.log(f"Emoción detectada: {emotion} (Cluster: {cluster})", "INFO")
             self.log(f"Confianza: {confidence:.2f}", "INFO")

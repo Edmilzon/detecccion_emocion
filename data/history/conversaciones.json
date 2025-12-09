@@ -19,300 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "no detectas nada",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Qué energía tan positiva! Sigue así ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:42:03.337401"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "negativo",
-      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:51:39.627891"
-    },
-    {
-      "user_message": "normal",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:51:48.665765"
-    },
-    {
-      "user_message": "neutro",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:51:51.080920"
-    },
-    {
-      "user_message": "perfecto todo bien",
-      "detected_emotion": "negativo",
-      "bot_response": "Entiendo que no sea fácil. Tomemos un respiro ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:51:59.433303"
-    },
-    {
-      "user_message": "positivo siempre bien",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:52:05.402308"
-    },
-    {
-      "user_message": "genial",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:52:12.745264"
-    },
-    {
-      "user_message": "magnifico",
-      "detected_emotion": "negativo",
-      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:52:15.113036"
-    },
-    {
-      "user_message": "especial y feliz",
-      "detected_emotion": "negativo",
-      "bot_response": "Entiendo que no sea fácil. Tomemos un respiro ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:52:18.568859"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:57:14.232186"
-    },
-    {
-      "user_message": "como andas",
-      "detected_emotion": "negativo",
-      "bot_response": "No estás solo/a en esto. Juntos podemos ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:57:17.965402"
-    },
-    {
-      "user_message": "espero q estes bien",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:57:21.021324"
-    },
-    {
-      "user_message": "holaq",
-      "detected_emotion": "negativo",
-      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:59:55.209492"
-    },
-    {
-      "user_message": "hola",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:59:57.179373"
-    },
-    {
-      "user_message": "bien",
-      "detected_emotion": "negativo",
-      "bot_response": "Entiendo que no sea fácil. Tomemos un respiro ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:00.276367"
-    },
-    {
-      "user_message": "genial",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:01.715896"
-    },
-    {
-      "user_message": "feliz",
-      "detected_emotion": "negativo",
-      "bot_response": "No estás solo/a en esto. Juntos podemos ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:03.275141"
-    },
-    {
-      "user_message": "suoper",
-      "detected_emotion": "negativo",
-      "bot_response": "Lamento que estés pasando por esto ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:05.686056"
-    },
-    {
-      "user_message": "bien",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:07.051365"
-    },
-    {
-      "user_message": "unico",
-      "detected_emotion": "negativo",
-      "bot_response": "No estás solo/a en esto. Juntos podemos ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:09.123651"
-    },
-    {
-      "user_message": "aaaa",
-      "detected_emotion": "negativo",
-      "bot_response": "Los momentos difíciles pasan. Cuenta conmigo ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "día",
-        "situación",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T19:00:10.563045"
-    },
-    {
       "user_message": "mejor",
       "detected_emotion": "negativo",
       "bot_response": "Lamento que estés pasando por esto ",
@@ -1346,6 +1052,242 @@
         "cerrar"
       ],
       "timestamp": "2025-12-08T22:59:40.489073"
+    },
+    {
+      "user_message": "hola me fue bien en mi examen",
+      "detected_emotion": "alegría",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "extraño ambiente",
+        "hola",
+        "examen"
+      ],
+      "timestamp": "2025-12-08T23:29:01.455363"
+    },
+    {
+      "user_message": "'fue un gran dia me salio todo bien y aprobe mis paterias",
+      "detected_emotion": "alegría",
+      "bot_response": "Entiendo. ¿Hay algo específico en lo que pueda ayudarte?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "extraño ambiente",
+        "gran",
+        "salio",
+        "aprobe"
+      ],
+      "timestamp": "2025-12-08T23:29:14.089369"
+    },
+    {
+      "user_message": "que [uedo hacer el dia de hoy",
+      "detected_emotion": "enojo",
+      "bot_response": "Lamento que estés pasando por esto",
+      "cluster_id": 14,
+      "cluster_words": [
+        "hacer",
+        "hoy",
+        "uedo"
+      ],
+      "timestamp": "2025-12-08T23:29:22.861075"
+    },
+    {
+      "user_message": "no no tanto bueno masomenos me lastime la mano",
+      "detected_emotion": "alegría",
+      "bot_response": "Lo siento, no pude procesar tu mensaje correctamente",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bueno",
+        "masomenos",
+        "lastime",
+        "mano"
+      ],
+      "timestamp": "2025-12-08T23:29:40.606207"
+    },
+    {
+      "user_message": "mal muy mal",
+      "detected_emotion": "tristeza",
+      "bot_response": "Gracias por tu mensaje. ¿Cómo te sientes al respecto?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal"
+      ],
+      "timestamp": "2025-12-08T23:29:54.637263"
+    },
+    {
+      "user_message": "mal como te giho mal",
+      "detected_emotion": "tristeza",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal",
+        "giho"
+      ],
+      "timestamp": "2025-12-08T23:30:02.106694"
+    },
+    {
+      "user_message": "mm no estoy feliz",
+      "detected_emotion": "alegría",
+      "bot_response": "Gracias por compartir. ¿Quieres contarme más?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "feliz"
+      ],
+      "timestamp": "2025-12-08T23:30:07.155133"
+    },
+    {
+      "user_message": "mal",
+      "detected_emotion": "tristeza",
+      "bot_response": "Gracias por tu mensaje. ¿Cómo te sientes al respecto?",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal"
+      ],
+      "timestamp": "2025-12-08T23:30:10.378741"
+    },
+    {
+      "user_message": "enojado",
+      "detected_emotion": "enojo",
+      "bot_response": "Es válido sentirse así. Estoy aquí para escucharte",
+      "cluster_id": 7,
+      "cluster_words": [
+        "enojado"
+      ],
+      "timestamp": "2025-12-08T23:30:14.674050"
+    },
+    {
+      "user_message": "infeliz",
+      "detected_emotion": "alegría",
+      "bot_response": "¡Me alegra mucho escuchar tu entusiasmo!",
+      "cluster_id": 7,
+      "cluster_words": [
+        "infeliz"
+      ],
+      "timestamp": "2025-12-08T23:30:18.434354"
+    },
+    {
+      "user_message": "hola me fue mal en mi examen estoy triste",
+      "detected_emotion": "tristeza",
+      "bot_response": "Para reconectarte con la ciudad sin presión, una caminata relajada por la **Plaza Sucre** es perfecta.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "mal",
+        "triste",
+        "hola",
+        "examen"
+      ],
+      "timestamp": "2025-12-08T23:32:47.335476"
+    },
+    {
+      "user_message": "pero hace frio y esta lloviendo",
+      "detected_emotion": "alegría",
+      "bot_response": "Es mejor sacar el enojo con acción. Unos **autos chocones** en Skybox son pura diversión.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "hace",
+        "frio",
+        "lloviendo"
+      ],
+      "timestamp": "2025-12-08T23:33:03.435651"
+    },
+    {
+      "user_message": "anodo muy enojado",
+      "detected_emotion": "enojo",
+      "bot_response": "Si buscas un lugar para estar contigo mismo, el **museo Fidel Anze** ofrece un refugio de calma.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "anodo",
+        "enojado"
+      ],
+      "timestamp": "2025-12-08T23:33:20.547496"
+    },
+    {
+      "user_message": "pero eso me molesta mas",
+      "detected_emotion": "tristeza",
+      "bot_response": "Para aprovechar este día, un tranquilo paseo y fotos en la **Plaza 14 de Septiembre** te vendrán de maravilla.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "molesta"
+      ],
+      "timestamp": "2025-12-08T23:33:33.794010"
+    },
+    {
+      "user_message": "no es muy infantil;",
+      "detected_emotion": "confusión",
+      "bot_response": "Desahoga esa frustración de forma épica: ¡**subir al Cristo por las gradas** te dejará exhausto y renovado!",
+      "cluster_id": 7,
+      "cluster_words": [
+        "infantil"
+      ],
+      "timestamp": "2025-12-08T23:33:43.411210"
+    },
+    {
+      "user_message": "mm puede ser me alegratse el dia",
+      "detected_emotion": "tristeza",
+      "bot_response": "Necesitas un cambio de ambiente y un buen sabor. La **Fundación Patiño** con su **frappé** es ideal.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "puede",
+        "alegratse"
+      ],
+      "timestamp": "2025-12-08T23:33:54.271616"
+    },
+    {
+      "user_message": "estoy feliz",
+      "detected_emotion": "alegría",
+      "bot_response": "Recuerda ser amable contigo. Un buen **helado** y un momento de paz es lo que necesitas.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "feliz"
+      ],
+      "timestamp": "2025-12-08T23:34:01.976149"
+    },
+    {
+      "user_message": "ando re bien la verdad",
+      "detected_emotion": "alegría",
+      "bot_response": "Date ese permiso. Un buen **helado** es un pequeño lujo que puede levantar el ánimo suavemente.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "extraño ambiente",
+        "ando",
+        "verdad"
+      ],
+      "timestamp": "2025-12-08T23:34:15.823042"
+    },
+    {
+      "user_message": "me gustan tus consejos",
+      "detected_emotion": "tristeza",
+      "bot_response": "El antídoto al aburrimiento es el caos controlado: **ir a La Cancha a pasear** te sorprenderá en cada esquina.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "gustan",
+        "consejos"
+      ],
+      "timestamp": "2025-12-08T23:34:23.688226"
+    },
+    {
+      "user_message": "tengo hambre",
+      "detected_emotion": "alegría",
+      "bot_response": "Si buscas un lugar donde puedas gritar sin que te oigan (metafóricamente), la **subida al Cristo** es tu escape.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "hambre"
+      ],
+      "timestamp": "2025-12-08T23:34:51.776309"
+    },
+    {
+      "user_message": "hola estoy feliz fue un gran dia",
+      "detected_emotion": "alegría",
+      "bot_response": "¡Qué momento tan positivo! Te sugiero celebrar con una deliciosa **comida con amigos (Los Q’jchis, Pollos Donkin)**.",
+      "cluster_id": 7,
+      "cluster_words": [
+        "feliz",
+        "hola",
+        "gran"
+      ],
+      "timestamp": "2025-12-08T23:37:23.859895"
     }
   ]
 }

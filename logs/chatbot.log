@@ -2145,3 +2145,231 @@
 2025-12-08 21:59:59,979 - EmotionChatbot - INFO -    - Inercia: 571.63
 2025-12-08 21:59:59,979 - EmotionChatbot - INFO -    - Muestras: 724
 2025-12-08 21:59:59,979 - EmotionChatbot - INFO -    - Clusters detectados: 30
+2025-12-08 23:28:51,813 - EmotionChatbot - INFO - JSON cargado: config/parametros.json
+2025-12-08 23:28:51,813 - EmotionChatbot - INFO - INICIANDO ENTRENAMIENTO NO SUPERVISADO
+2025-12-08 23:28:51,813 - EmotionChatbot - INFO - Algoritmo: K-means con TF-IDF
+2025-12-08 23:28:51,813 - EmotionChatbot - INFO - Clusters: 30 (completamente no supervisado - sin palabras clave)
+2025-12-08 23:28:51,813 - EmotionChatbot - INFO - El modelo detectará emociones automáticamente sin etiquetas
+2025-12-08 23:28:51,816 - EmotionChatbot - INFO - Iniciando entrenamiento NO SUPERVISADO con K-means
+2025-12-08 23:28:51,820 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 724 registros
+2025-12-08 23:28:51,820 - EmotionChatbot - INFO - Cargados 724 textos para entrenamiento
+2025-12-08 23:28:51,820 - EmotionChatbot - INFO - Preprocesando textos...
+2025-12-08 23:28:51,828 - EmotionChatbot - INFO - Vectorizando con TF-IDF...
+2025-12-08 23:28:51,842 - EmotionChatbot - INFO - Entrenando K-means con 30 clusters...
+2025-12-08 23:28:53,794 - EmotionChatbot - INFO - Interpretando clusters...
+2025-12-08 23:28:53,797 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 724 registros
+2025-12-08 23:28:53,797 - EmotionChatbot - INFO - Cargados 724 textos para entrenamiento
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO - Cluster 0: emoción_0
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO -   Palabras características: pequeño, siento pequeño, pequeño tanta, esperanzado pequeño, pequeño avance
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO -   Textos en cluster: 6
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO - Cluster 1: emoción_1
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO -   Palabras características: tristeza, tristeza ver, ver cómo, ver, cómo
+2025-12-08 23:28:53,805 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO - Cluster 2: emoción_2
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO -   Palabras características: emocionado, siento emocionado, comienzo, etapa, emocionado nuevas
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO - Cluster 3: emoción_3
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO -   Palabras características: dolido, palabras, siento, volver, esperanzado pequeño
+2025-12-08 23:28:53,806 - EmotionChatbot - INFO -   Textos en cluster: 2
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO - Cluster 4: emoción_4
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO -   Palabras características: siento, después, vacío, siento vacío, hoy
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO -   Textos en cluster: 139
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO - Cluster 5: emoción_5
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO -   Palabras características: emoción, emoción recibir, recibir, inesperado, tan
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO -   Textos en cluster: 18
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO - Cluster 6: emoción_6
+2025-12-08 23:28:53,807 - EmotionChatbot - INFO -   Palabras características: preocupado, preocupado podría, tiempo, podría, dije
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO -   Textos en cluster: 16
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO - Cluster 7: emoción_7
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO -   Palabras características: alivio, bien, ansioso, paz, miedo
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO -   Textos en cluster: 224
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO - Cluster 8: emoción_8
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO -   Palabras características: sorprendido, reacción, sorprendido sinceridad, sinceridad, rapidez
+2025-12-08 23:28:53,808 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO - Cluster 9: emoción_9
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO -   Palabras características: optimista, futuro, optimista futuro, viene, creo
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO -   Textos en cluster: 6
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO - Cluster 10: emoción_10
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO -   Palabras características: decepcionado, mismo, siempre, decepcionado cómo, actitud
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:28:53,809 - EmotionChatbot - INFO - Cluster 11: emoción_11
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Palabras características: nuevo, motivado, proyecto, ilusionado, motivado seguir
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Textos en cluster: 14
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO - Cluster 12: emoción_12
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Palabras características: enojo, falta, compromiso, falta compromiso, molesto falta
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO - Cluster 13: emoción_13
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Palabras características: tan, felicidad, sentirme, sorpresa tan, sorpresa
+2025-12-08 23:28:53,810 - EmotionChatbot - INFO -   Textos en cluster: 23
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO - Cluster 14: emoción_14
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO -   Palabras características: irritado, hoy, siento irritado, irritado falta, falta
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO -   Textos en cluster: 24
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO - Cluster 15: emoción_15
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO -   Palabras características: rabia cosas, cosas, rabia, rápido, tan rápido
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO -   Textos en cluster: 5
+2025-12-08 23:28:53,811 - EmotionChatbot - INFO - Cluster 16: emoción_16
+2025-12-08 23:28:53,812 - EmotionChatbot - INFO -   Palabras características: saber, decepción, tan, respuesta, alivio saber
+2025-12-08 23:28:53,812 - EmotionChatbot - INFO -   Textos en cluster: 15
+2025-12-08 23:28:53,812 - EmotionChatbot - INFO - Cluster 17: emoción_17
+2025-12-08 23:28:53,812 - EmotionChatbot - INFO -   Palabras características: rabia, poder, frustración poder, impotencia poder, frustración
+2025-12-08 23:28:53,886 - EmotionChatbot - INFO -   Textos en cluster: 19
+2025-12-08 23:28:53,886 - EmotionChatbot - INFO - Cluster 18: emoción_18
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Palabras características: satisfacción, terminar, lograr, satisfacción lograr, alivio terminar
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO - Cluster 19: emoción_19
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Palabras características: satisfecho, siento satisfecho, siento, satisfecho desempeño, desempeño
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO - Cluster 20: emoción_20
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Palabras características: alegría, alegría ver, ver, ver cómo, cómo
+2025-12-08 23:28:53,887 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO - Cluster 21: emoción_21
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO -   Palabras características: ver, emoción ver, emoción, indignación, indignación ver
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO -   Textos en cluster: 23
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO - Cluster 22: emoción_22
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO -   Palabras características: orgulloso, siento orgulloso, siento, progreso, seguir
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:28:53,888 - EmotionChatbot - INFO - Cluster 23: emoción_23
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Palabras características: confundido, situación, siento confundido, entiendo, siento
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Textos en cluster: 18
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO - Cluster 24: emoción_24
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Palabras características: inquieto, siento inquieto, siento, cambiar, esperando
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO - Cluster 25: emoción_25
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Palabras características: agradecido, siento agradecido, siento, agradecido cada, cada
+2025-12-08 23:28:53,889 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO - Cluster 26: emoción_26
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO -   Palabras características: inspirado, siento inspirado, hoy, siento, inspirado escuché
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO - Cluster 27: emoción_27
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO -   Palabras características: día, furioso, furioso injusticia, injusticia día, injusticia
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO -   Textos en cluster: 8
+2025-12-08 23:28:53,890 - EmotionChatbot - INFO - Cluster 28: emoción_28
+2025-12-08 23:28:53,891 - EmotionChatbot - INFO -   Palabras características: tantas, abrumado, siento abrumado, abrumado tantas, tareas
+2025-12-08 23:28:53,891 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:28:53,891 - EmotionChatbot - INFO - Cluster 29: emoción_29
+2025-12-08 23:28:53,891 - EmotionChatbot - INFO -   Palabras características: necesito, agotado, siento agotado, decaído necesito, mentalmente
+2025-12-08 23:28:53,891 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:28:53,906 - EmotionChatbot - INFO - Evaluación - Silhouette: 0.0706, Inercia: 571.63
+2025-12-08 23:28:53,926 - EmotionChatbot - INFO - JSON guardado: models/current/info_modelo.json
+2025-12-08 23:28:53,927 - EmotionChatbot - INFO - JSON guardado: data/history/metricas_entrenamiento.json
+2025-12-08 23:28:53,927 - EmotionChatbot - INFO - Modelo K-means guardado exitosamente
+2025-12-08 23:28:53,927 - EmotionChatbot - INFO - ENTRENAMIENTO COMPLETADO
+2025-12-08 23:28:53,928 - EmotionChatbot - INFO - Resultados:
+2025-12-08 23:28:53,928 - EmotionChatbot - INFO -    - Silhouette Score: 0.0706
+2025-12-08 23:28:54,660 - EmotionChatbot - INFO -    - Inercia: 571.63
+2025-12-08 23:28:54,660 - EmotionChatbot - INFO -    - Muestras: 724
+2025-12-08 23:28:54,660 - EmotionChatbot - INFO -    - Clusters detectados: 30
+2025-12-08 23:32:02,764 - EmotionChatbot - INFO - JSON cargado: config/parametros.json
+2025-12-08 23:32:02,764 - EmotionChatbot - INFO - INICIANDO ENTRENAMIENTO NO SUPERVISADO
+2025-12-08 23:32:02,764 - EmotionChatbot - INFO - Algoritmo: K-means con TF-IDF
+2025-12-08 23:32:02,764 - EmotionChatbot - INFO - Clusters: 30 (completamente no supervisado - sin palabras clave)
+2025-12-08 23:32:02,764 - EmotionChatbot - INFO - El modelo detectará emociones automáticamente sin etiquetas
+2025-12-08 23:32:02,766 - EmotionChatbot - INFO - Iniciando entrenamiento NO SUPERVISADO con K-means
+2025-12-08 23:32:02,770 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 724 registros
+2025-12-08 23:32:02,771 - EmotionChatbot - INFO - Cargados 724 textos para entrenamiento
+2025-12-08 23:32:02,771 - EmotionChatbot - INFO - Preprocesando textos...
+2025-12-08 23:32:02,778 - EmotionChatbot - INFO - Vectorizando con TF-IDF...
+2025-12-08 23:32:02,793 - EmotionChatbot - INFO - Entrenando K-means con 30 clusters...
+2025-12-08 23:32:04,745 - EmotionChatbot - INFO - Interpretando clusters...
+2025-12-08 23:32:04,748 - EmotionChatbot - INFO - CSV cargado: data/training/textos_sin_etiquetar.csv - 724 registros
+2025-12-08 23:32:04,749 - EmotionChatbot - INFO - Cargados 724 textos para entrenamiento
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO - Cluster 0: emoción_0
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO -   Palabras características: pequeño, siento pequeño, pequeño tanta, esperanzado pequeño, pequeño avance
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO -   Textos en cluster: 6
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO - Cluster 1: emoción_1
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO -   Palabras características: tristeza, tristeza ver, ver cómo, ver, cómo
+2025-12-08 23:32:04,756 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO - Cluster 2: emoción_2
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO -   Palabras características: emocionado, siento emocionado, comienzo, etapa, emocionado nuevas
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO - Cluster 3: emoción_3
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO -   Palabras características: dolido, palabras, siento, volver, esperanzado pequeño
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO -   Textos en cluster: 2
+2025-12-08 23:32:04,757 - EmotionChatbot - INFO - Cluster 4: emoción_4
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Palabras características: siento, después, vacío, siento vacío, hoy
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Textos en cluster: 139
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO - Cluster 5: emoción_5
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Palabras características: emoción, emoción recibir, recibir, inesperado, tan
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Textos en cluster: 18
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO - Cluster 6: emoción_6
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Palabras características: preocupado, preocupado podría, tiempo, podría, dije
+2025-12-08 23:32:04,758 - EmotionChatbot - INFO -   Textos en cluster: 16
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO - Cluster 7: emoción_7
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO -   Palabras características: alivio, bien, ansioso, paz, miedo
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO -   Textos en cluster: 224
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO - Cluster 8: emoción_8
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO -   Palabras características: sorprendido, reacción, sorprendido sinceridad, sinceridad, rapidez
+2025-12-08 23:32:04,759 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO - Cluster 9: emoción_9
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO -   Palabras características: optimista, futuro, optimista futuro, viene, creo
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO -   Textos en cluster: 6
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO - Cluster 10: emoción_10
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO -   Palabras características: decepcionado, mismo, siempre, decepcionado cómo, actitud
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:32:04,760 - EmotionChatbot - INFO - Cluster 11: emoción_11
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Palabras características: nuevo, motivado, proyecto, ilusionado, motivado seguir
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Textos en cluster: 14
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO - Cluster 12: emoción_12
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Palabras características: enojo, falta, compromiso, falta compromiso, molesto falta
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO - Cluster 13: emoción_13
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Palabras características: tan, felicidad, sentirme, sorpresa tan, sorpresa
+2025-12-08 23:32:04,761 - EmotionChatbot - INFO -   Textos en cluster: 23
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO - Cluster 14: emoción_14
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO -   Palabras características: irritado, hoy, siento irritado, irritado falta, falta
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO -   Textos en cluster: 24
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO - Cluster 15: emoción_15
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO -   Palabras características: rabia cosas, cosas, rabia, rápido, tan rápido
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO -   Textos en cluster: 5
+2025-12-08 23:32:04,762 - EmotionChatbot - INFO - Cluster 16: emoción_16
+2025-12-08 23:32:04,763 - EmotionChatbot - INFO -   Palabras características: saber, decepción, tan, respuesta, alivio saber
+2025-12-08 23:32:04,763 - EmotionChatbot - INFO -   Textos en cluster: 15
+2025-12-08 23:32:04,763 - EmotionChatbot - INFO - Cluster 17: emoción_17
+2025-12-08 23:32:04,763 - EmotionChatbot - INFO -   Palabras características: rabia, poder, frustración poder, impotencia poder, frustración
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO -   Textos en cluster: 19
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO - Cluster 18: emoción_18
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO -   Palabras características: satisfacción, terminar, lograr, satisfacción lograr, alivio terminar
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO - Cluster 19: emoción_19
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO -   Palabras características: satisfecho, siento satisfecho, siento, satisfecho desempeño, desempeño
+2025-12-08 23:32:04,839 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO - Cluster 20: emoción_20
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO -   Palabras características: alegría, alegría ver, ver, ver cómo, cómo
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO - Cluster 21: emoción_21
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO -   Palabras características: ver, emoción ver, emoción, indignación, indignación ver
+2025-12-08 23:32:04,840 - EmotionChatbot - INFO -   Textos en cluster: 23
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO - Cluster 22: emoción_22
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO -   Palabras características: orgulloso, siento orgulloso, siento, progreso, seguir
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO - Cluster 23: emoción_23
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO -   Palabras características: confundido, situación, siento confundido, entiendo, siento
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO -   Textos en cluster: 18
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO - Cluster 24: emoción_24
+2025-12-08 23:32:04,841 - EmotionChatbot - INFO -   Palabras características: inquieto, siento inquieto, siento, cambiar, esperando
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO -   Textos en cluster: 12
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO - Cluster 25: emoción_25
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO -   Palabras características: agradecido, siento agradecido, siento, agradecido cada, cada
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO - Cluster 26: emoción_26
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO -   Palabras características: inspirado, siento inspirado, hoy, siento, inspirado escuché
+2025-12-08 23:32:04,842 - EmotionChatbot - INFO -   Textos en cluster: 11
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO - Cluster 27: emoción_27
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO -   Palabras características: día, furioso, furioso injusticia, injusticia día, injusticia
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO -   Textos en cluster: 8
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO - Cluster 28: emoción_28
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO -   Palabras características: tantas, abrumado, siento abrumado, abrumado tantas, tareas
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO -   Textos en cluster: 10
+2025-12-08 23:32:04,843 - EmotionChatbot - INFO - Cluster 29: emoción_29
+2025-12-08 23:32:04,844 - EmotionChatbot - INFO -   Palabras características: necesito, agotado, siento agotado, decaído necesito, mentalmente
+2025-12-08 23:32:04,844 - EmotionChatbot - INFO -   Textos en cluster: 13
+2025-12-08 23:32:04,859 - EmotionChatbot - INFO - Evaluación - Silhouette: 0.0706, Inercia: 571.63
+2025-12-08 23:32:04,879 - EmotionChatbot - INFO - JSON guardado: models/current/info_modelo.json
+2025-12-08 23:32:04,880 - EmotionChatbot - INFO - JSON guardado: data/history/metricas_entrenamiento.json
+2025-12-08 23:32:04,880 - EmotionChatbot - INFO - Modelo K-means guardado exitosamente
+2025-12-08 23:32:04,880 - EmotionChatbot - INFO - ENTRENAMIENTO COMPLETADO
+2025-12-08 23:32:04,880 - EmotionChatbot - INFO - Resultados:
+2025-12-08 23:32:04,881 - EmotionChatbot - INFO -    - Silhouette Score: 0.0706
+2025-12-08 23:32:05,463 - EmotionChatbot - INFO -    - Inercia: 571.63
+2025-12-08 23:32:05,463 - EmotionChatbot - INFO -    - Muestras: 724
+2025-12-08 23:32:05,463 - EmotionChatbot - INFO -    - Clusters detectados: 30
