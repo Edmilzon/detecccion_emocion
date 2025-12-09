@@ -124,7 +124,7 @@ class ChatUI:
         r = sr.Recognizer()
         with sr.Microphone() as source:
             self.root.after(0, lambda: self.log("🎤 Di algo...", "INFO"))
-            self.root.after(0, lambda: self.control_panel.record_btn.config(state="disabled", text="🎤 Escuchando..."))
+            self.root.after(0, lambda: self.chat_area.record_btn.config(state="disabled", text="🎤 Escuchando..."))
             
             try:
                 r.adjust_for_ambient_noise(source, duration=0.5)
@@ -152,7 +152,7 @@ class ChatUI:
                 self.root.after(0, lambda: messagebox.showerror("Error", f"Ocurrió un error inesperado: {e}"))
             finally:
                 # Restaurar botón en el hilo principal
-                self.root.after(0, lambda: self.control_panel.record_btn.config(state="normal", text="🎤 Grabar Voz"))
+                self.root.after(0, lambda: self.chat_area.record_btn.config(state="normal", text="🎤 Grabar Voz"))
 
 
     # ENTRENAMIENTO

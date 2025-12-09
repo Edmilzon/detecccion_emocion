@@ -1,4 +1,3 @@
-# view/components/tkinter_handler.py
 import logging
 
 class TkinterHandler(logging.Handler):

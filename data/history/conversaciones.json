@@ -19,34 +19,6 @@
   ],
   "conversations": [
     {
-      "user_message": "que es lo que te pasa",
-      "detected_emotion": "positivo",
-      "bot_response": "¡Qué energía tan positiva! Sigue así ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:54.479832"
-    },
-    {
-      "user_message": "todo mal no",
-      "detected_emotion": "positivo",
-      "bot_response": "Me encanta tu actitud positiva ",
-      "cluster_id": 0,
-      "cluster_words": [
-        "siento",
-        "emoción",
-        "día",
-        "hoy",
-        "bien"
-      ],
-      "timestamp": "2025-11-23T18:41:58.744838"
-    },
-    {
       "user_message": "no detectas nada",
       "detected_emotion": "positivo",
       "bot_response": "¡Qué energía tan positiva! Sigue así ",
@@ -1351,6 +1323,29 @@
         "suicidar"
       ],
       "timestamp": "2025-12-08T22:50:23.021954"
+    },
+    {
+      "user_message": "Hola Hola Cómo estás Espero que bien",
+      "detected_emotion": "alegría",
+      "bot_response": "Me encanta tu actitud positiva",
+      "cluster_id": 7,
+      "cluster_words": [
+        "bien",
+        "cómo",
+        "hola",
+        "espero"
+      ],
+      "timestamp": "2025-12-08T22:59:34.640549"
+    },
+    {
+      "user_message": "cerrar",
+      "detected_emotion": "alegría",
+      "bot_response": "¡Qué energía tan positiva! Sigue así",
+      "cluster_id": 7,
+      "cluster_words": [
+        "cerrar"
+      ],
+      "timestamp": "2025-12-08T22:59:40.489073"
     }
   ]
 }

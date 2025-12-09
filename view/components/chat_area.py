@@ -1,4 +1,3 @@
-# view/components/chat_area.py
 import tkinter as tk
 from tkinter import ttk
 from ..theme import COLORS
